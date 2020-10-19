@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test del componente <GifGrid/> compara el Snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Test del componente <GifGrid/> debe de mostrar items cuando se cargan imagenes useGetchGifs 1`] = `ShallowWrapper {}`;

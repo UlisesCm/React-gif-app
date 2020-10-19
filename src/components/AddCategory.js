@@ -14,11 +14,13 @@ const AddCategory = ({ setCategories }) => {
       //validamos que el texto sea mayor que 2 y quitamos espacion en blanco
       setCategories((cats) => [inputValue, ...cats]);
       setInputValue("");
+      console.log("handle submit");
     }
   };
 
   return (
     <form onSubmit={handleSubmit}>
+      <p> {inputValue} </p>
       <input type="text" value={inputValue} onChange={handleInputChange} />
     </form>
   );
